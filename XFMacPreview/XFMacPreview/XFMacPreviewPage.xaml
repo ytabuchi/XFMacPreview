@@ -1,11 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:XFMacPreview"
     x:Class="XFMacPreview.XFMacPreviewPage">
-    <Label
-        Text="Welcome to Xamarin Forms!"
-        VerticalOptions="Center"
-        HorizontalOptions="Center" />
+    <StackLayout Padding="8"
+		Spacing="8">
+        <Label Text="Welcome Xamarin.Forms Mac!!!"
+			FontSize="40"/>
+		<Entry x:Name="entry"
+		    Placeholder="type your name"/>
+		<Button x:Name="alertButton"
+			Text="Show alert"
+			Clicked="alertButton_Clicked"/>		
+	</StackLayout>
 </ContentPage>
