@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFMacPreview.iOS", "iOS\XFM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFMacPreview.Droid", "Droid\XFMacPreview.Droid.csproj", "{D58DD201-C3EC-47C6-96D8-5B3320D345BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFMacPreview.macOS", "macOS\XFMacPreview.macOS.csproj", "{901BF0C8-3FAD-4FD7-8F43-740F85404644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -41,5 +43,17 @@ Global
 		{D58DD201-C3EC-47C6-96D8-5B3320D345BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58DD201-C3EC-47C6-96D8-5B3320D345BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58DD201-C3EC-47C6-96D8-5B3320D345BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Release|iPhone.ActiveCfg = Release|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Release|iPhone.Build.0 = Release|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Debug|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Debug|iPhone.Build.0 = Debug|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{901BF0C8-3FAD-4FD7-8F43-740F85404644}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 EndGlobal
